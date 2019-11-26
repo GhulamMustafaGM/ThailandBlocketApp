@@ -1,0 +1,361 @@
+Advertisement:
+  Advertisement_2:
+    add_title: 'Audi R8 For Sale'
+    ItemCategory: ItemCategory_1
+    user_name: 'Muhammad Rizwan'
+    user_email: rizwan.ciit@yahoo.com
+    user_password: null
+    created_at: null
+    updated_at: null
+    City: City_1
+    description: '  I am selling my AUDI R8.'
+    price: '20000'
+  Advertisement_3:
+    add_title: 'I am selling something'
+    ItemCategory: ItemCategory_1
+    user_name: 'My test  Add'
+    user_email: test@test.com
+    user_password: null
+    created_at: null
+    updated_at: null
+    City: City_1
+    description: '  I want to sell something'
+    price: '12'
+  Advertisement_4:
+    add_title: kjlkjlkjl
+    ItemCategory: ItemCategory_1
+    user_name: 'My new add'
+    user_email: jkljl@yahoo.com
+    user_password: null
+    created_at: null
+    updated_at: null
+    City: City_1
+    description: '  dfdsf'
+    price: '23'
+  Advertisement_5:
+    add_title: 'Regions testing'
+    ItemCategory: ItemCategory_1
+    user_name: 'Muhammad Rizwan'
+    user_email: eee@yahoo.com
+    user_password: null
+    created_at: null
+    updated_at: null
+    City: City_16
+    description: '  selling my car'
+    price: '233'
+AdvertismentDetails:
+  AdvertismentDetails_1:
+    key_name: Brand
+    key_value: Audi
+    Advertisement: Advertisement_2
+  AdvertismentDetails_2:
+    key_name: Model
+    key_value: 'A3 2 Series'
+    Advertisement: Advertisement_2
+  AdvertismentDetails_3:
+    key_name: Power
+    key_value: 'Gasoline Edited'
+    Advertisement: Advertisement_2
+  AdvertismentDetails_4:
+    key_name: Milage
+    key_value: 10009-20009
+    Advertisement: Advertisement_2
+  AdvertismentDetails_5:
+    key_name: Brand
+    key_value: Audi
+    Advertisement: Advertisement_3
+  AdvertismentDetails_6:
+    key_name: Model
+    key_value: A1
+    Advertisement: Advertisement_3
+  AdvertismentDetails_7:
+    key_name: Power
+    key_value: 'Gasoline Edited'
+    Advertisement: Advertisement_3
+  AdvertismentDetails_8:
+    key_name: Milage
+    key_value: 10009-20009
+    Advertisement: Advertisement_3
+  AdvertismentDetails_9:
+    key_name: Brand
+    key_value: Audi
+    Advertisement: Advertisement_4
+  AdvertismentDetails_10:
+    key_name: Model
+    key_value: 'A3 1 Series'
+    Advertisement: Advertisement_4
+  AdvertismentDetails_11:
+    key_name: Power
+    key_value: Suspension
+    Advertisement: Advertisement_4
+  AdvertismentDetails_12:
+    key_name: Milage
+    key_value: 10009-20009
+    Advertisement: Advertisement_4
+  AdvertismentDetails_13:
+    key_name: Brand
+    key_value: Audi
+    Advertisement: Advertisement_5
+  AdvertismentDetails_14:
+    key_name: Model
+    key_value: A2
+    Advertisement: Advertisement_5
+  AdvertismentDetails_15:
+    key_name: Power
+    key_value: Suspension
+    Advertisement: Advertisement_5
+  AdvertismentDetails_16:
+    key_name: Milage
+    key_value: 10009-20009
+    Advertisement: Advertisement_5
+AdvertismentImage:
+  AdvertismentImage_1:
+    image_path: 2-audi-r8.jpg
+    Advertisement: Advertisement_2
+  AdvertismentImage_2:
+    image_path: 2-audi_r81.jpg
+    Advertisement: Advertisement_2
+  AdvertismentImage_3:
+    image_path: 2-audi-r82.jpg
+    Advertisement: Advertisement_2
+  AdvertismentImage_4:
+    image_path: 3-DSC00120.jpg
+    Advertisement: Advertisement_3
+  AdvertismentImage_5:
+    image_path: 3-kheer.jpg
+    Advertisement: Advertisement_3
+  AdvertismentImage_6:
+    image_path: 4-audi-r8.jpg
+    Advertisement: Advertisement_4
+  AdvertismentImage_7:
+    image_path: 4-DSC00120.jpg
+    Advertisement: Advertisement_4
+  AdvertismentImage_8:
+    image_path: 5-Exterior-Home-Design.jpg
+    Advertisement: Advertisement_5
+CarBrand:
+  CarBrand_1:
+    name: Audi
+  CarBrand_2:
+    name: BMW
+CarModel:
+  CarModel_1:
+    name: A1
+    CarBrand: CarBrand_1
+  CarModel_2:
+    name: A2
+    CarBrand: CarBrand_1
+  CarModel_3:
+    name: 'A3 1 Series'
+    CarBrand: CarBrand_1
+  CarModel_4:
+    name: 'A3 2 Series'
+    CarBrand: CarBrand_1
+  CarModel_5:
+    name: 'A4 1 Series'
+    CarBrand: CarBrand_1
+  CarModel_6:
+    name: 'A4 2 Series'
+    CarBrand: CarBrand_1
+  CarModel_7:
+    name: 'A4 3 Series'
+    CarBrand: CarBrand_1
+  CarModel_8:
+    name: 'Series 1 (E81)'
+    CarBrand: CarBrand_2
+  CarModel_9:
+    name: 'Series 1 (E87)'
+    CarBrand: CarBrand_2
+  CarModel_10:
+    name: 'Series 6 (F30)'
+    CarBrand: CarBrand_2
+CategoryGroup:
+  CategoryGroup_1:
+    name: Vehicles
+    created_at: null
+    updated_at: null
+  CategoryGroup_2:
+    name: Work
+    created_at: null
+    updated_at: null
+  CategoryGroup_3:
+    name: 'Real Estate'
+    created_at: null
+    updated_at: null
+City:
+  City_1:
+    name: 'Chiang Rai'
+    created_at: null
+    updated_at: null
+    Region: Region_1
+  City_2:
+    name: Phayao
+    created_at: null
+    updated_at: null
+    Region: Region_1
+  City_3:
+    name: Lampang
+    created_at: null
+    updated_at: null
+    Region: Region_1
+  City_4:
+    name: Lamphun
+    created_at: null
+    updated_at: null
+    Region: Region_1
+  City_5:
+    name: 'Chiang Mai'
+    created_at: null
+    updated_at: null
+    Region: Region_1
+  City_6:
+    name: 'Mae Hong Son'
+    created_at: null
+    updated_at: null
+    Region: Region_1
+  City_7:
+    name: Tak
+    created_at: null
+    updated_at: null
+    Region: Region_1
+  City_8:
+    name: 'Kamphaeng Phet'
+    created_at: null
+    updated_at: null
+    Region: Region_1
+  City_9:
+    name: Saraburi
+    created_at: null
+    updated_at: null
+    Region: Region_2
+  City_10:
+    name: 'Lop Buri'
+    created_at: null
+    updated_at: null
+    Region: Region_2
+  City_11:
+    name: 'Sing Buri'
+    created_at: null
+    updated_at: null
+    Region: Region_2
+  City_12:
+    name: 'Chai Nat'
+    created_at: null
+    updated_at: null
+    Region: Region_2
+  City_13:
+    name: 'Suphan Buri'
+    created_at: null
+    updated_at: null
+    Region: Region_2
+  City_14:
+    name: Loei
+    created_at: null
+    updated_at: null
+    Region: Region_3
+  City_15:
+    name: 'Nong Bua Lam Phu'
+    created_at: null
+    updated_at: null
+    Region: Region_3
+  City_16:
+    name: 'Udon Thani'
+    created_at: null
+    updated_at: null
+    Region: Region_3
+  City_17:
+    name: 'Nong Khai'
+    created_at: null
+    updated_at: null
+    Region: Region_3
+  City_18:
+    name: 'Sakon Nakhon'
+    created_at: null
+    updated_at: null
+    Region: Region_3
+  City_19:
+    name: Chumphon
+    created_at: null
+    updated_at: null
+    Region: Region_4
+  City_20:
+    name: Ranong
+    created_at: null
+    updated_at: null
+    Region: Region_4
+  City_21:
+    name: 'Surat Thani'
+    created_at: null
+    updated_at: null
+    Region: Region_4
+  City_22:
+    name: Phangnga
+    created_at: null
+    updated_at: null
+    Region: Region_4
+  City_23:
+    name: Phuket
+    created_at: null
+    updated_at: null
+    Region: Region_4
+Details:
+  Details_1:
+    car_brand: '1'
+    milage: '1'
+    power: '1'
+    ItemCategory: ItemCategory_1
+ItemCategory:
+  ItemCategory_1:
+    CategoryGroup: CategoryGroup_1
+    name: Cars
+    associated_form: carspartial
+    created_at: null
+    updated_at: null
+  ItemCategory_2:
+    CategoryGroup: CategoryGroup_1
+    name: 'Vehicle Accessories'
+    associated_form: vehicleaccessories
+    created_at: null
+    updated_at: null
+  ItemCategory_3:
+    CategoryGroup: CategoryGroup_1
+    name: 'Motor Cycles'
+    associated_form: motorcycles
+    created_at: null
+    updated_at: null
+  ItemCategory_4:
+    CategoryGroup: CategoryGroup_1
+    name: Boating
+    associated_form: boating
+    created_at: null
+    updated_at: null
+Milage:
+  Milage_1:
+    name: 0-1000
+  Milage_2:
+    name: 10009-20009
+  Milage_3:
+    name: 5000-6000
+  Milage_4:
+    name: 3000-4000
+  Milage_5:
+    name: 8000-9000
+Power:
+  Power_1:
+    name: 'Gasoline Edited'
+  Power_2:
+    name: Suspension
+  Power_3:
+    name: Other
+Region:
+  Region_1:
+    name: 'Northern Region'
+  Region_2:
+    name: 'Central Plain Region'
+  Region_3:
+    name: 'North-Eastern Region'
+  Region_4:
+    name: 'Southern Region'
+Type:
+  Type_1:
+    name: type1
