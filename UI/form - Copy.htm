@@ -1,0 +1,2040 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it"> 
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="content-language" content="it" />
+    <link href="http://109.168.127.170/css/subitoit.css?7689" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="http://109.168.127.170/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://109.168.127.170/img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="http://109.168.127.170/img/subito_iphone_icon.png" />
+<link rel="canonical" href="http://www2.subito.it/ai/form" />
+
+
+<title>
+Inserire un annuncio Subito.it
+
+</title>
+
+
+<script type="text/javascript" src="http://109.168.127.170/templates/common/arrays.js?7689"></script>
+ <script type="text/javascript" src="http://109.168.127.170/js/common.js?7689"></script>
+ <script type="text/javascript" src="http://109.168.127.170/js/newad_dhtml.js?7689"></script>
+ <script type="text/javascript" src="http://109.168.127.170/js/jquery-1.4.2.min.js?7689"></script>
+ <script type="text/javascript" src="http://109.168.127.170/js/jquery.colorbox.js?7689"></script>
+ 
+
+
+
+
+
+
+    
+        
+    
+  
+
+<script type="text/javascript" language="JavaScript" src="http://109.168.127.170/js/EAS_tag.1.0.js"></script>
+<link href="http://109.168.127.170/css/print.css?7689" rel="stylesheet" type="text/css" media="print" />
+</head>
+
+
+
+
+
+<body >
+
+
+
+<img src="http://109.168.127.170/img2/logo_big.gif" alt="Subito.it" title="Subito.it" class="showonprint" id="printlogo" />
+
+<!-- Header -->
+<div id="header">	
+	<div class="logo"><a href="http://www.subito.it/" title="Subito.it">Subito.it</a>
+        <h1>Inserire un annuncio Subito.it</h1>
+	</div>
+    
+
+
+<div class="menutop">
+    <div class="menu_open"></div>
+    <div class="menu_main">
+        <h2>Area riservata:</h2>
+            <ul>
+                <li><a href="http://www2.subito.it/account/login_form">Accedi</a> <span>|</span></li>
+                <li><a href="http://www2.subito.it/account/form">Registrati</a></li>
+            </ul>
+        
+    </div>
+    <div class="menu_close"></div>
+</div>
+
+    
+	<div class="menu">
+		<ul>
+			<li><a href="http://www.subito.it/">Home</a> <span>|</span></li>
+            <li><a href="http://www2.subito.it/ai?ca=7_s" accesskey="l" rel="nofollow">Inserisci annuncio</a> <span>|</span></li>
+            <li><a href="http://www.subito.it/annunci-friuli-venezia-giulia/vendita/usato/?s=1" accesskey="v" onclick="xt_med('C','29','nav_sell','N')">In vendita</a> <span>|</span></li>
+                <li><a href="http://www.subito.it/annunci-friuli-venezia-giulia/cerco/usato/?s=1" accesskey="c" onclick="xt_med('C','29','nav_seek','N')">Cercasi</a> <span>|</span></li>
+            
+            <li><a href="http://www.subito.it/servizioclienti.htm?ca=7_s" rel="nofollow">Servizio clienti</a> </li>
+		</ul>
+	</div>
+	<br class="sep" />
+</div>
+<!-- End Header -->
+
+
+<div id="content">
+    <div class="big-title">
+	   
+   
+      
+
+   
+		 
+		 
+
+		 
+
+		
+
+		
+      	  <h3 class="title">Inserisci il tuo annuncio gratis</h3>
+      	  <h4 class="subtitle">Sar&agrave; controllato in base alle <a href="http://www.subito.it/regole.htm" target="_blank">regole</a> di Subito.it.</h4>
+  		
+
+      
+
+
+        
+    </div>
+    <br class="sep" />
+    <div class="main">
+        <div class="full-white">
+            <div class="open"></div>
+            <div>
+                <form method="post" action="/ai/verify/0" name="formular" enctype="multipart/form-data" onsubmit="return cleanElementsValue( new Array('subject', 'body' ))" >
+                    
+                    <input type="hidden" name="check_type_diff" id="check_type_diff" value="1" />
+                    <ul class="form-listing">
+                        <li id="li_category" class="">
+                            <div class="label">Categoria</div>
+                            <div class="value">
+                                <select onchange="showCategory('category', 'carextras', 'company_ad', 'err_category');suggestCategory(document.formular.subject.value, this.value, 'subject-warning');" name="category" id="category">
+                                        <option value="0">&laquo;Seleziona la categoria&raquo;</option>
+                                            <option value='1' style='background-color:#ddd' disabled="disabled" id='cat1' >-- VEICOLI --</option>
+                                            <option value='2'  id='cat2' >Auto</option>
+                                            <option value='5'  id='cat5' >Accessori Auto</option>
+                                            <option value='3'  id='cat3' >Moto e Scooter</option>
+                                            <option value='36'  id='cat36' >Accessori Moto</option>
+                                            <option value='22'  id='cat22' >Nautica</option>
+                                            <option value='34'  id='cat34' >Caravan e Camper</option>
+                                            <option value='4'  id='cat4' >Altri veicoli</option>
+                                            <option value='6' style='background-color:#ddd' disabled="disabled" id='cat6' >-- IMMOBILI --</option>
+                                            <option value='7'  id='cat7' >Appartamenti</option>
+                                            <option value='43'  id='cat43' >Camere/Posti letto</option>
+                                            <option value='29'  id='cat29' >Ville singole e a schiera</option>
+                                            <option value='30'  id='cat30' >Terreni e rustici</option>
+                                            <option value='31'  id='cat31' >Garage e box</option>
+                                            <option value='32'  id='cat32' >Loft, mansarde e altro</option>
+                                            <option value='33'  id='cat33' >Case vacanza</option>
+                                            <option value='8'  id='cat8' >Uffici e Locali commerciali</option>
+                                            <option value='35'  id='cat35' >All'estero</option>
+                                            <option value='24' style='background-color:#ddd' disabled="disabled" id='cat24' >-- LAVORO --</option>
+                                            <option value='26'  id='cat26' >Offerte di lavoro</option>
+                                            <option value='42'  id='cat42' >Candidati in cerca di lavoro</option>
+                                            <option value='25'  id='cat25' >Attrezzature di lavoro</option>
+                                            <option value='9' style='background-color:#ddd' disabled="disabled" id='cat9' >-- ELETTRONICA --</option>
+                                            <option value='10'  id='cat10' >Informatica</option>
+                                            <option value='44'  id='cat44' >Console e Videogiochi</option>
+                                            <option value='11'  id='cat11' >Audio/Video</option>
+                                            <option value='40'  id='cat40' >Fotografia</option>
+                                            <option value='12'  id='cat12' >Telefonia</option>
+                                            <option value='13' style='background-color:#ddd' disabled="disabled" id='cat13' >-- PER LA CASA e LA PERSONA --</option>
+                                            <option value='14'  id='cat14' >Arredamento e Casalinghi</option>
+                                            <option value='37'  id='cat37' >Elettrodomestici</option>
+                                            <option value='15'  id='cat15' >Giardino e Fai da te</option>
+                                            <option value='16'  id='cat16' >Abbigliamento e Accessori</option>
+                                            <option value='17'  id='cat17' >Per i bambini e Giocattoli</option>
+                                            <option value='18' style='background-color:#ddd' disabled="disabled" id='cat18' >-- SPORTS E HOBBY --</option>
+                                            <option value='23'  id='cat23' >Animali</option>
+                                            <option value='19'  id='cat19' >Musica e Film</option>
+                                            <option value='38'  id='cat38' >Libri e Riviste</option>
+                                            <option value='39'  id='cat39' >Strumenti Musicali</option>
+                                            <option value='20'  id='cat20' >Sports</option>
+                                            <option value='41'  id='cat41' >Biciclette</option>
+                                            <option value='21'  id='cat21' >Collezionismo</option>
+                                            <option value='27' style='background-color:#ddd' disabled="disabled" id='cat27' >-- -- --</option>
+                                            <option value='28'  id='cat28' >Altri</option>
+                                            
+                                    </select>
+                                    
+                                    
+                                
+                            </div>
+                        </li>
+                        <!-- category subtypes -->
+                        <li id="li_animal_type" class="" style="display:none">
+                            <div class="label">Specie</div>
+                            <div class="value">
+                                <select name="animal_type">
+                                    <option value="">&laquo;Seleziona la specie&raquo;</option>
+                                    <option value="1" >Cane</option>
+                                    <option value="2" >Gatto</option>
+                                    <option value="4" >Pesce</option>
+                                    <option value="5" >Cavallo</option>
+                                    <option value="3" >Altro</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_office_type" class="" style="display:none">
+                            <div class="label">Tipologia</div>
+                            <div class="value">
+                                <select name="office_type">
+                                    <option value="">&laquo;Seleziona il tipo di ufficio o locale commerciale&raquo;</option>
+                                    <option value="1" >Ufficio</option>
+                                    <option value="2" >Negozio</option>
+                                    <option value="3" >Capannone</option>
+                                    <option value="4" >Magazzino</option>
+                                    <option value="5" >Laboratorio</option>
+                                    <option value="6" >Altro</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_room_type" class="" style="display:none">
+                            <div class="label">Tipologia</div>
+                            <div class="value">
+                                <select name="room_type">
+                                    <option value="">&laquo;Seleziona il tipo di stanza&raquo;</option>
+                                    <option value="1" >Singola</option>
+                                    <option value="2" >In condivisione</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_ship_type" class="" style="display:none">
+                            <div class="label">Tipologia:</div>
+                            <div class="value">
+                                <select name="ship_type">
+                                    <option value="">&laquo;Seleziona il tipo di imbarcazione&raquo;</option>
+                                    <option value="1" >Barca a motore</option>
+                                    <option value="2" >Barca a vela</option>
+                                    <option value="3" >Gommone</option>
+                                    <option value="4" >Moto d'acqua</option>
+                                    <option value="5" >Accessori</option>
+                                    <option value="6" >Altro</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_vehicle_type" class="" style="display:none">
+                            <div class="label">
+                                Tipologia:
+                            </div>
+                            <div class="value">
+                                <select name="vehicle_type">
+                                    <option value="">&laquo;Seleziona il tipo di veicolo&raquo;</option>
+                                    <option value="1" >Veicoli commerciali</option>
+                                    <option value="2" >Trattori agricoli</option>
+                                    <option value="3" >Macchine agricole</option>
+                                    <option value="4" >Macchine edili</option>
+                                    <option value="5" >Carrelli elevatori</option>
+                                    <option value="6" >Altro</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_caravan_type" class="" style="display:none">
+                            <div class="label">Tipologia </div>
+                            <div class="value">
+                                <select name="caravan_type">
+                                    <option value="">&laquo;Seleziona il tipo di veicolo&raquo;</option>
+                                    <option value="1" >Camper puro</option>
+                                    <option value="2" >Caravan/Roulotte</option>
+                                    <option value="3" >Mansardato</option>
+                                    <option value="4" >Motorhome</option>
+                                    <option value="5" >Semi-integrale</option>
+                                    <option value="6" >Rimorchio/altro</option>
+                                    <option value="7" >Altro</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_sport_type" class="" style="display:none">
+                            <div class="label">Tipo di sport </div>
+                            <div class="value">
+                                <select name="sport_type">
+                                    <option value="">&laquo;Seleziona il tipo di sport&raquo;</option>
+                                    <option value="1" >Calcio</option>
+                                    <option value="2" >Basket</option>
+                                    <option value="3" >Volley</option>
+                                    <option value="4" >Sci e Snowboard</option>
+                                    <option value="5" >Ciclismo</option>
+                                    <option value="6" >Acquatici</option>
+                                    <option value="7" >Palestra</option>
+                                    <option value="8" >Golf</option>
+                                    <option value="9" >Motori</option>
+                                    <option value="10" >Outdoor</option>
+                                    <option value="11" >Altro</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_hobby_type" class="" style="display:none">
+                            <div class="label">Tipologia</div>
+                            <div class="value">
+                                <select name="hobby_type">
+                                    <option value="">&laquo;Seleziona il tipo di hobby&raquo;</option>
+                                    <option value="10" >Bambole</option>
+                                    <option value="6" >Carte e Schede</option>
+                                    <option value="3" >Cartoline</option>
+                                    <option value="5" >Editoria</option>
+                                    <option value="1" >Francobolli</option>
+                                    <option value="4" >Militaria</option>
+                                    <option value="8" >Modellismo</option>
+                                    <option value="9" >Modernariato</option>
+                                    <option value="2" >Monete</option>
+                                    <option value="7" >Altro</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_audiovideo_type" class="" style="display:none">
+                            <div class="label">Tipologia</div>
+                            <div class="value">
+                                <select name="audiovideo_type">
+                                    <option value="">&laquo;Seleziona il tipo di apparecchio&raquo;</option>
+                                    <option value="1" >TV</option>
+                                    <option value="2" >Lettori DVD/VHS</option>
+                                    <option value="3" >Radio/Stereo</option>
+                                    <option value="4" >Altro</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_bicycle_type" class="" style="display:none">
+                            <div class="label">Tipologia</div>
+                            <div class="value">
+                                <select name="bicycle_type">
+                                    <option value="">&laquo;Seleziona il tipo di apparecchio&raquo;</option>
+                                    <option value="1" >Uomo</option>
+                                    <option value="2" >Donna</option>
+                                    <option value="3" >Bimbo</option>
+                                    <option value="4" >MTB</option>
+                                    <option value="5" >Corsa</option>
+                                    <option value="6" >Altro</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_phone_type" class="" style="display:none">
+                            <div class="label">Tipologia</div>
+                            <div class="value">
+                                <select name="phone_type" id="phone_type" onchange="if (this.value=='3') {document.formular.phonebrand.value='altro';changePhonebrand('altro', 'altro');}">
+                                    <option value="">&laquo;Scegli&raquo;</option>
+                                    <option value="1" >Telefoni Cellulari</option>
+                                    <option value="2" >Accessori per Cellulari</option>
+                                    <option value="3" >Altro</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_phonebrand" class="" style="display:none">
+                            <div class="label">Marca</div>
+                            <div class="value">
+                                <select name="phonebrand" id="phonebrand" onchange="changePhonebrand(this.value)">
+                                    <option value="">&laquo;Scegli la marca&raquo;</option>
+                                    <option value="acer" >Acer</option>
+                                    <option value="alcatel" >Alcatel</option>
+                                    <option value="anycool" >Anycool</option>
+                                    <option value="apple" >Apple</option>
+                                    <option value="asus" >Asus</option>
+                                    <option value="benefon" >Benefon</option>
+                                    <option value="benq" >BenQ</option>
+                                    <option value="benq-siemens" >BenQ-Siemens</option>
+                                    <option value="brionvega" >Brionvega</option>
+                                    <option value="brondi" >Brondi</option>
+                                    <option value="cect" >CECT</option>
+                                    <option value="daewoo" >Daewoo</option>
+                                    <option value="dbtel" >Dbtel</option>
+                                    <option value="dell" >Dell</option>
+                                    <option value="em2" >EM2</option>
+                                    <option value="emporia" >Emporia</option>
+                                    <option value="enteos" >Enteos</option>
+                                    <option value="ericsson" >Ericsson</option>
+                                    <option value="eten" >Eten</option>
+                                    <option value="fastweb" >Fastweb</option>
+                                    <option value="fujitsu-siemens" >Fujitsu-Siemens</option>
+                                    <option value="garmin-asus" >Garmin Asus</option>
+                                    <option value="gigabyte" >Gigabyte</option>
+                                    <option value="grundig" >Grundig</option>
+                                    <option value="hagenuk" >Hagenuk</option>
+                                    <option value="haier" >Haier</option>
+                                    <option value="hewlett-packard" >Hewlett Packard</option>
+                                    <option value="hop-mobile" >Hop Mobile</option>
+                                    <option value="htc" >HTC</option>
+                                    <option value="hughes" >Hughes</option>
+                                    <option value="i-mate" >i-Mate</option>
+                                    <option value="i-teq" >i-Teq</option>
+                                    <option value="innostream" >Innostream</option>
+                                    <option value="inq" >INQ</option>
+                                    <option value="itelco" >Itelco</option>
+                                    <option value="itt" >ITT</option>
+                                    <option value="levi-strauss" >Levi Strauss</option>
+                                    <option value="lg-electronics" >LG Electronics</option>
+                                    <option value="martin-dawes" >Martin Dawes</option>
+                                    <option value="mio" >Mio</option>
+                                    <option value="mitsubishi" >Mitsubishi</option>
+                                    <option value="momo-design" >MOMO Design</option>
+                                    <option value="motorola" >Motorola</option>
+                                    <option value="nec" >Nec</option>
+                                    <option value="neonode" >Neonode</option>
+                                    <option value="ngm" >NGM</option>
+                                    <option value="nokia" >Nokia</option>
+                                    <option value="onda" >Onda</option>
+                                    <option value="palm" >Palm</option>
+                                    <option value="palmone" >PalmOne</option>
+                                    <option value="panasonic" >Panasonic</option>
+                                    <option value="pantech" >Pantech</option>
+                                    <option value="philips" >Philips</option>
+                                    <option value="pocketdevice" >PocketDevice</option>
+                                    <option value="porsche-design" >Porsche Design</option>
+                                    <option value="qqaaxx" >QQAAXX</option>
+                                    <option value="qtek" >Qtek</option>
+                                    <option value="quantum" >Quantum</option>
+                                    <option value="rim" >RIM</option>
+                                    <option value="sagem" >Sagem</option>
+                                    <option value="samsung" >Samsung</option>
+                                    <option value="sendo" >Sendo</option>
+                                    <option value="sharp" >Sharp</option>
+                                    <option value="siemens" >Siemens</option>
+                                    <option value="siemens-xelibri" >Siemens-Xelibri</option>
+                                    <option value="skype" >Skype</option>
+                                    <option value="sonim" >Sonim</option>
+                                    <option value="sony" >Sony</option>
+                                    <option value="sony-ericsson" >Sony Ericsson</option>
+                                    <option value="tel-me" >Tel.Me</option>
+                                    <option value="telit" >Telit</option>
+                                    <option value="thuraya" >Thuraya</option>
+                                    <option value="toshiba" >Toshiba</option>
+                                    <option value="vertu" >Vertu</option>
+                                    <option value="vk-mobile" >VK Mobile</option>
+                                    <option value="vodafone" >Vodafone</option>
+                                    <option value="xplore" >Xplore</option>
+                                    <option value="zte" >ZTE</option>
+                                    <option value="altro" >Altro</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_phonemodel" class="" style="display:none">
+                            <div class="label">Modello</div>
+                            <div class="value">
+                                <select name="phonemodel">
+                                    <option value="">&laquo;Seleziona prima la marca&raquo;</option>
+                                </select>
+                                
+                            </div>
+                            <script type="text/javascript">
+                            <!--
+                            selected_phonebrand = "";
+                            selected_phonemodel = "";
+                            if (selected_phonebrand){
+                                setTimeout("changePhonebrand(selected_phonebrand, selected_phonemodel)",1000);
+                            }
+                            //-->
+                            </script>
+                        </li>
+                        <li id="li_bikebrand" class="" style="display:none">
+                            <div class="label">Marca</div>
+                            <div class="value">
+                                <select name="bikebrand" id="bikebrand" onchange="changeBikebrand(this.value)">
+                                    <option value="">&laquo;Seleziona la marca&raquo;</option>
+                                    <option value="000070" >Adiva</option>
+                                    <option value="000016" >Aprilia</option>
+                                    <option value="000085" >Aspess Power</option>
+                                    <option value="000069" >Axy</option>
+                                    <option value="000062" >Azel</option>
+                                    <option value="000037" >BMW</option>
+                                    <option value="000017" >Bajaj</option>
+                                    <option value="000018" >Benelli</option>
+                                    <option value="000019" >Beta</option>
+                                    <option value="000001" >Bimota</option>
+                                    <option value="000020" >Borile</option>
+                                    <option value="000038" >Buell</option>
+                                    <option value="000021" >Bultaco</option>
+                                    <option value="000039" >CCM</option>
+                                    <option value="000077" >CH Racing</option>
+                                    <option value="000104" >CMC</option>
+                                    <option value="000080" >CPI</option>
+                                    <option value="000064" >CR&amp;S</option>
+                                    <option value="000022" >Cagiva</option>
+                                    <option value="000082" >Dado Motors</option>
+                                    <option value="000023" >Daelim</option>
+                                    <option value="000002" >Derbi</option>
+                                    <option value="000040" >Ducati</option>
+                                    <option value="000075" >Fantic Motor</option>
+                                    <option value="000067" >Garelli</option>
+                                    <option value="000024" >Gas Gas</option>
+                                    <option value="000096" >Generic</option>
+                                    <option value="000025" >Ghezzi-Brian</option>
+                                    <option value="000100" >GiMotori</option>
+                                    <option value="000086" >GiPuma</option>
+                                    <option value="000026" >Gilera</option>
+                                    <option value="000089" >HDM</option>
+                                    <option value="000068" >HM</option>
+                                    <option value="000027" >Harley-Davidson</option>
+                                    <option value="000106" >Headbanger</option>
+                                    <option value="000051" >Honda</option>
+                                    <option value="000003" >Honda Dall'Ara</option>
+                                    <option value="000093" >Hupper</option>
+                                    <option value="000004" >Husaberg</option>
+                                    <option value="000005" >Husqvarna</option>
+                                    <option value="000006" >Hyosung</option>
+                                    <option value="000028" >Italjet</option>
+                                    <option value="000041" >Jawa</option>
+                                    <option value="000007" >KTM</option>
+                                    <option value="000029" >Kawasaki</option>
+                                    <option value="000052" >Kawasaki KL</option>
+                                    <option value="000063" >Keeway</option>
+                                    <option value="000102" >Kreidler</option>
+                                    <option value="000008" >Kymco</option>
+                                    <option value="000094" >LML</option>
+                                    <option value="000042" >Laverda</option>
+                                    <option value="000091" >Lingben</option>
+                                    <option value="000078" >Linhai</option>
+                                    <option value="000030" >MBK</option>
+                                    <option value="000010" >MV Agusta</option>
+                                    <option value="000034" >MZ</option>
+                                    <option value="000043" >Magni</option>
+                                    <option value="000009" >Malaguti</option>
+                                    <option value="000090" >Millepercento</option>
+                                    <option value="000031" >Mondial</option>
+                                    <option value="000044" >Montesa</option>
+                                    <option value="000101" >Moto Bellini</option>
+                                    <option value="000045" >Moto Guzzi</option>
+                                    <option value="000056" >Moto Morini</option>
+                                    <option value="000083" >Motom</option>
+                                    <option value="000033" >Motor Union</option>
+                                    <option value="000099" >Nipponia</option>
+                                    <option value="000097" >Nox</option>
+                                    <option value="000103" >Ossa</option>
+                                    <option value="000092" >PGO</option>
+                                    <option value="000095" >Peda Motor</option>
+                                    <option value="000011" >Peugeot</option>
+                                    <option value="000053" >Piaggio</option>
+                                    <option value="000071" >Polini</option>
+                                    <option value="000065" >Rieju</option>
+                                    <option value="000012" >Royal Enfield</option>
+                                    <option value="000046" >Sachs</option>
+                                    <option value="000072" >Scorpa</option>
+                                    <option value="000059" >Sherco</option>
+                                    <option value="000047" >Siamoto</option>
+                                    <option value="000081" >Steed</option>
+                                    <option value="000013" >Suzuki</option>
+                                    <option value="000073" >Suzuki Valenti</option>
+                                    <option value="000035" >Sym</option>
+                                    <option value="000079" >TGB</option>
+                                    <option value="000032" >TM Racing</option>
+                                    <option value="000076" >Terra Modena</option>
+                                    <option value="000014" >Triumph</option>
+                                    <option value="000036" >Ural</option>
+                                    <option value="000048" >Vertemati</option>
+                                    <option value="000084" >Victory</option>
+                                    <option value="000049" >Vor</option>
+                                    <option value="000087" >WT Motors</option>
+                                    <option value="000015" >Yamaha</option>
+                                    <option value="000000" >Altro</option>
+                                     
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_bikemodel" class="" style="display:none">
+                            <div class="label">Modello</div>
+                            <div class="value">
+                                <select name="bikemodel" id="bikemodel" disabled="disabled" onchange="changeBikemodel(this.value)">
+                                    <option value="">&laquo;Seleziona prima la marca&raquo;</option>
+                                </select>
+                                
+                            </div>
+                            <script type="text/javascript">
+                            <!--
+                            selected_bikemodel = "";
+                            selected_bikeversion = "";
+                            if (selected_bikemodel){
+                                setTimeout("changeBikemodel(selected_bikemodel, selected_bikeversion)",1500);
+                            }
+                            //-->
+                            </script>
+                        </li>
+                        <li id="li_bikeversion" class="" style="display:none">
+                            <div class="label">Allestimento</div>
+                            <div class="value">
+                                <select name="bikeversion">
+                                    <option value="">&laquo;Seleziona prima il modello&raquo;</option>
+                                </select> <i>(facoltativo)</i>
+                                
+                            </div>
+                        </li>
+                        <li id="li_moto_type" class="" style="display:none">
+                            <div class="label">Tipologia</div>
+                            <div class="value">
+                                <select name="moto_type">
+                                    <option value="">&laquo;Seleziona tipologia&raquo;</option>
+                                    <option value="1" >Sport</option>
+<option value="2" >Cross / Enduro</option>
+<option value="3" >Custom</option>
+<option value="4" >Scooter</option>
+<option value="5" >Turismo</option>
+<option value="6" >Quad</option>
+<option value="7" >Epoca</option>
+<option value="8" >Altro</option>
+ 
+                                </select> <i>(facoltativo)</i>
+                                
+                            </div>
+                        </li>
+                        <li id="li_carbrand" class="" style="display:none">
+                            <div class="label">Marca</div>
+                            <div class="value">
+                                <select name="carbrand" id="carbrand" onchange="changeCarbrand(this.value)">
+                                    <option value="">&laquo;Seleziona la marca&raquo;</option>
+                                    <option value="" style='background-color:#ddd' disabled="disabled">Marche principali</option>
+                                    
+                                    <option value="000083" >ALFA ROMEO</option>
+<option value="000161" >AUDI</option>
+<option value="000085" >BMW</option>
+<option value="000008" >FIAT</option>
+<option value="000039" >FORD</option>
+<option value="000034" >LANCIA</option>
+<option value="000033" >MERCEDES</option>
+<option value="000020" >OPEL</option>
+<option value="000062" >RENAULT</option>
+<option value="000101" >VOLKSWAGEN</option>
+ 
+                                    <option value="" style='background-color:#ddd' disabled="disabled">Altre marche</option>
+                                    <option value="002409" >ABARTH</option>
+<option value="000323" >AC</option>
+<option value="001024" >ACM</option>
+<option value="000416" >AIXAM</option>
+<option value="000083" >ALFA ROMEO</option>
+<option value="000160" >ALPINA-BMW</option>
+<option value="000700" >AMG</option>
+<option value="000333" >APAL</option>
+<option value="002345" >ARIEL</option>
+<option value="000180" >ARO</option>
+<option value="001421" >ASIA MOTORS</option>
+<option value="000074" >ASTON MARTIN</option>
+<option value="000161" >AUDI</option>
+<option value="000080" >AUSTIN ROVER</option>
+<option value="000035" >AUTOBIANCHI</option>
+<option value="000515" >AUVERLAND</option>
+<option value="001504" >BELLIER</option>
+<option value="000070" >BENTLEY</option>
+<option value="000049" >BERTONE</option>
+<option value="001362" >BIAGINI</option>
+<option value="000085" >BMW</option>
+<option value="002176" >BOXEL</option>
+<option value="001522" >BUGATTI</option>
+<option value="000081" >BUICK</option>
+<option value="000076" >CADILLAC</option>
+<option value="002273" >CARLETTI</option>
+<option value="000250" >CASALINI</option>
+<option value="000277" >CATERHAM</option>
+<option value="001539" >CHATENET</option>
+<option value="000084" >CHEVROLET</option>
+<option value="000087" >CHRYSLER</option>
+<option value="000091" >CITROEN</option>
+<option value="001859" >CITYCAR</option>
+<option value="002309" >CMC (CARLETTI)</option>
+<option value="002405" >CORVETTE</option>
+<option value="000018" >DACIA</option>
+<option value="000577" >DAEWOO</option>
+<option value="000104" >DAIHATSU</option>
+<option value="000106" >DAIMLER</option>
+<option value="001058" >DE LA CHAPELLE</option>
+<option value="000114" >DE TOMASO</option>
+<option value="000267" >DODGE</option>
+<option value="000193" >DONKERVOORT</option>
+<option value="002717" >DR</option>
+<option value="002311" >EFFEDI</option>
+<option value="001599" >EPOCAR</option>
+<option value="000804" >EVANTE</option>
+<option value="002297" >FEAB</option>
+<option value="000013" >FERRARI</option>
+<option value="000008" >FIAT</option>
+<option value="000039" >FORD</option>
+<option value="000128" >FSO</option>
+<option value="002303" >GEM</option>
+<option value="000196" >GINETTA</option>
+<option value="002718" >GIOTTI VICTORIA</option>
+<option value="002710" >GIOTTILINE</option>
+<option value="002715" >GREAT WALL MOTOR</option>
+<option value="002275" >GRECAV</option>
+<option value="002706" >GREEN COMPANY</option>
+<option value="000147" >HONDA</option>
+<option value="002398" >HUMMER</option>
+<option value="000122" >HYUNDAI</option>
+<option value="000776" >IATO</option>
+<option value="001970" >INFINITI</option>
+<option value="000120" >INNOCENTI</option>
+<option value="002285" >ISO</option>
+<option value="000146" >ISUZU</option>
+<option value="002709" >ITALCAR</option>
+<option value="002318" >IVECO</option>
+<option value="000110" >JAGUAR</option>
+<option value="000422" >JDM</option>
+<option value="000144" >JEEP</option>
+<option value="000746" >KIA</option>
+<option value="000433" >LADA</option>
+<option value="000135" >LAMBORGHINI</option>
+<option value="000034" >LANCIA</option>
+<option value="000140" >LAND ROVER</option>
+<option value="001962" >LEXUS</option>
+<option value="000254" >LIGIER</option>
+<option value="000134" >LOTUS</option>
+<option value="000651" >LUAZ (VOLIN)</option>
+<option value="000657" >MAHINDRA</option>
+<option value="000495" >MARCOS</option>
+<option value="002745" >MARTIN MOTORS</option>
+<option value="000848" >MARUTI</option>
+<option value="000117" >MASERATI</option>
+<option value="002359" >MAYBACH</option>
+<option value="000145" >MAZDA</option>
+<option value="001960" >MAZZIERI</option>
+<option value="001938" >MEGA</option>
+<option value="002712" >MELEX</option>
+<option value="000033" >MERCEDES</option>
+<option value="002713" >META</option>
+<option value="001945" >MG</option>
+<option value="000926" >MICRO VETT</option>
+<option value="000766" >MICROCAR</option>
+<option value="000598" >MIDDLEBRIDGE</option>
+<option value="002222" >MINI</option>
+<option value="000148" >MITSUBISHI</option>
+<option value="002092" >MOKE</option>
+<option value="000109" >MORETTI</option>
+<option value="000136" >MORGAN</option>
+<option value="000149" >NISSAN</option>
+<option value="000095" >NISSAN SPAGNA</option>
+<option value="001117" >NOBLE</option>
+<option value="000113" >OLTCIT</option>
+<option value="000901" >OMAI</option>
+<option value="000020" >OPEL</option>
+<option value="000717" >OTO MELARA</option>
+<option value="000772" >P.G.O.</option>
+<option value="002288" >PAGANI</option>
+<option value="000243" >PANTHER</option>
+<option value="000151" >PEUGEOT</option>
+<option value="000941" >PIAGGIO</option>
+<option value="000137" >PONTIAC</option>
+<option value="000027" >PORSCHE</option>
+<option value="000240" >PUMA ITALIA</option>
+<option value="002300" >QVALE</option>
+<option value="000436" >RAYTON FISSORE</option>
+<option value="000062" >RENAULT</option>
+<option value="000086" >ROLLS ROYCE</option>
+<option value="000154" >ROVER</option>
+<option value="000153" >SAAB</option>
+<option value="002408" >SALEEN</option>
+<option value="000255" >SANTANA</option>
+<option value="002266" >SAVEL-ERAD</option>
+<option value="000053" >SEAT</option>
+<option value="002403" >SECA</option>
+<option value="002277" >SECMA</option>
+<option value="002719" >SHUANGHUAN</option>
+<option value="000094" >SKODA</option>
+<option value="002259" >SMART</option>
+<option value="000979" >SSANGYONG</option>
+<option value="002394" >START LAB</option>
+<option value="000155" >SUBARU</option>
+<option value="000156" >SUZUKI</option>
+<option value="000397" >TALBOT</option>
+<option value="002269" >TASSO</option>
+<option value="002130" >TATA</option>
+<option value="002749" >TESLA</option>
+<option value="001036" >TORPEDO</option>
+<option value="002293" >TOWN LIFE</option>
+<option value="000103" >TOYOTA</option>
+<option value="000225" >TVR</option>
+<option value="000224" >UAZ</option>
+<option value="000222" >UMM</option>
+<option value="002291" >VALENTINI</option>
+<option value="000507" >VENTURI</option>
+<option value="000216" >VOLGA</option>
+<option value="000101" >VOLKSWAGEN</option>
+<option value="000173" >VOLKSWAGEN MESSICO</option>
+<option value="000098" >VOLVO</option>
+<option value="000892" >YUGO</option>
+<option value="000945" >ZAGATO</option>
+<option value="000197" >ZAZ</option>
+<option value="000000" >Altro</option>
+ 
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_carmodel" class="" style="display:none">
+                            <div class="label">Modello</div>
+                            <div class="value">
+                                <select name="carmodel" id="carmodel" disabled="disabled" onchange="changeCarmodel(this.value)">
+                                    <option value="">&laquo;Seleziona prima la marca&raquo;</option>
+                                </select>
+                                
+                            </div>
+                            <script type="text/javascript">
+                            <!--
+                            selected_carbrand = "";
+                            selected_carmodel = "";
+                            if (selected_carbrand){
+                                setTimeout("changeCarbrand(selected_carbrand, selected_carmodel)",1000);
+                            }
+                            //-->
+                            </script>
+                        </li>
+                        <li id="li_carversion" class="" style="display:none">
+                            <div class="label">Allestimento</div>
+                            <div class="value">
+                                <select name="carversion">
+                                    <option value="">&laquo;Seleziona tipologia&raquo;</option>
+                                    <option value="0" ></option>
+<option value="11" ></option>
+<option value="1" ></option>
+<option value="16" ></option>
+<option value="23" ></option>
+<option value="27" ></option>
+<option value="28" ></option>
+<option value="29" ></option>
+<option value="3" ></option>
+<option value="4" ></option>
+<option value="43" ></option>
+<option value="50" ></option>
+<option value="56" ></option>
+<option value="60" ></option>
+<option value="62" ></option>
+<option value="65" ></option>
+<option value="67" ></option>
+<option value="68" ></option>
+<option value="70" ></option>
+<option value="8" ></option>
+<option value="72" ></option>
+<option value="75" ></option>
+<option value="76" ></option>
+<option value="79" ></option>
+<option value="80" ></option>
+<option value="82" ></option>
+<option value="10" ></option>
+<option value="92" ></option>
+<option value="93" ></option>
+<option value="94" ></option>
+<option value="95" ></option>
+<option value="96" ></option>
+<option value="100" ></option>
+<option value="101" ></option>
+<option value="102" ></option>
+<option value="103" ></option>
+<option value="12" ></option>
+<option value="105" ></option>
+<option value="107" ></option>
+<option value="108" ></option>
+<option value="109" ></option>
+<option value="110" ></option>
+<option value="112" ></option>
+<option value="113" ></option>
+<option value="123" ></option>
+<option value="142" ></option>
+<option value="146" ></option>
+<option value="148" ></option>
+<option value="149" ></option>
+<option value="160" ></option>
+<option value="163" ></option>
+<option value="168" ></option>
+<option value="172" ></option>
+<option value="173" ></option>
+<option value="183" ></option>
+<option value="191" ></option>
+<option value="211" ></option>
+<option value="219" ></option>
+<option value="270" ></option>
+<option value="274" ></option>
+<option value="283" ></option>
+<option value="286" ></option>
+<option value="327" ></option>
+<option value="333" ></option>
+<option value="383" ></option>
+<option value="5" ></option>
+<option value="425" ></option>
+<option value="431" ></option>
+<option value="448" ></option>
+<option value="463" ></option>
+<option value="486" ></option>
+<option value="502" ></option>
+<option value="506" ></option>
+<option value="510" ></option>
+<option value="532" ></option>
+<option value="542" ></option>
+<option value="69" ></option>
+<option value="591" ></option>
+<option value="754" ></option>
+<option value="785" ></option>
+<option value="836" ></option>
+<option value="850" ></option>
+<option value="13" ></option>
+<option value="1112" ></option>
+<option value="1150" ></option>
+<option value="1170" ></option>
+<option value="1206" ></option>
+<option value="150" ></option>
+<option value="1211" ></option>
+<option value="1213" ></option>
+<option value="1215" ></option>
+<option value="18" ></option>
+<option value="1216" ></option>
+<option value="1219" ></option>
+<option value="152" ></option>
+<option value="1225" ></option>
+<option value="153" ></option>
+<option value="1253" ></option>
+<option value="157" ></option>
+<option value="19" ></option>
+<option value="1283" ></option>
+<option value="1285" ></option>
+<option value="1478" ></option>
+<option value="184" ></option>
+<option value="1480" ></option>
+<option value="1482" ></option>
+<option value="1483" ></option>
+<option value="1485" ></option>
+<option value="1487" ></option>
+<option value="185" ></option>
+<option value="1509" ></option>
+<option value="188" ></option>
+ 
+                                </select> <i>(facoltativo)</i>
+                                
+                            </div>
+                            <script type="text/javascript">
+                            <!--
+                            selected_carmodel = "";
+                            selected_carversion = "";
+                            if (selected_carmodel){
+                                setTimeout("changeCarmodel(selected_carmodel, selected_carversion)",1500);
+                            }
+                            //-->
+                            </script>
+                        </li>
+                        <li id="li_regdate" class="" style="display:none">
+                            <div class="label double">Anno di immatricolazione</div>
+                            <div class="value">
+                                <select name="regdate">
+                                    <option value="0">&laquo;Seleziona anno&raquo;</option>
+                                    <option value="1980" >1980 o più vecchio</option>
+<option value="1981" >1981</option>
+<option value="1982" >1982</option>
+<option value="1983" >1983</option>
+<option value="1984" >1984</option>
+<option value="1985" >1985</option>
+<option value="1986" >1986</option>
+<option value="1987" >1987</option>
+<option value="1988" >1988</option>
+<option value="1989" >1989</option>
+<option value="1990" >1990</option>
+<option value="1991" >1991</option>
+<option value="1992" >1992</option>
+<option value="1993" >1993</option>
+<option value="1994" >1994</option>
+<option value="1995" >1995</option>
+<option value="1996" >1996</option>
+<option value="1997" >1997</option>
+<option value="1998" >1998</option>
+<option value="1999" >1999</option>
+<option value="2000" >2000</option>
+<option value="2001" >2001</option>
+<option value="2002" >2002</option>
+<option value="2003" >2003</option>
+<option value="2004" >2004</option>
+<option value="2005" >2005</option>
+<option value="2006" >2006</option>
+<option value="2007" >2007</option>
+<option value="2008" >2008</option>
+<option value="2009" >2009</option>
+<option value="2010" >2010</option>
+<option value="2011" >2011</option>
+ 
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_mileage" class="" style="display:none">
+                            <div class="label">Chilometraggio</div>
+                            <div class="value">
+                                <select name="mileage">
+                                    <option value="0">&laquo;Seleziona chilometraggio&raquo;</option>
+                                    <option value="1" >0 - 4.999</option>
+<option value="2" >5.000 - 9.999</option>
+<option value="3" >10.000 - 14.999</option>
+<option value="4" >15.000 - 19.999</option>
+<option value="5" >20.000 - 24.999</option>
+<option value="6" >25.000 - 29.999</option>
+<option value="7" >30.000 - 34.999</option>
+<option value="8" >35.000 - 39.999</option>
+<option value="9" >40.000 - 44.999</option>
+<option value="10" >45.000 - 49.999</option>
+<option value="11" >50.000 - 54.999</option>
+<option value="12" >55.000 - 59.999</option>
+<option value="13" >60.000 - 64.999</option>
+<option value="14" >65.000 - 69.999</option>
+<option value="15" >70.000 - 74.999</option>
+<option value="16" >75.000 - 79.999</option>
+<option value="17" >80.000 - 84.999</option>
+<option value="18" >85.000 - 89.999</option>
+<option value="19" >90.000 - 94.999</option>
+<option value="20" >95.000 - 99.999</option>
+<option value="21" >100.000 - 109.999</option>
+<option value="22" >110.000 - 119.999</option>
+<option value="23" >120.000 - 129.999</option>
+<option value="24" >130.000 - 139.999</option>
+<option value="25" >140.000 - 149.999</option>
+<option value="26" >150.000 - 159.999</option>
+<option value="27" >160.000 - 169.999</option>
+<option value="28" >170.000 - 179.999</option>
+<option value="29" >180.000 - 189.999</option>
+<option value="30" >190.000 - 199.999</option>
+<option value="31" >200.000 - 249.999</option>
+<option value="32" >250.000 - 299.999</option>
+<option value="33" >300.000 - 349.999</option>
+<option value="34" >350.000 - 399.999</option>
+<option value="35" >400.000 - 449.999</option>
+<option value="36" >450.000 - 499.999</option>
+<option value="37" >Più di 500.000</option>
+ 
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_computer_type" class="" style="display:none">
+                            <div class="label">Tipologia</div>
+                            <div class="value">
+                                <select name="computer_type">
+                                    <option value="">&laquo;Scegli&raquo;</option>
+                                    <option value="1" >Computer Fissi</option>
+                                    <option value="2" >Computer Portatili</option>
+                                    <option value="3" >Accessori</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_clothing_type" class="" style="display:none">
+                            <div class="label">Tipologia</div>
+                            <div class="value">
+                                <select name="clothing_type">
+                                    <option value="">&laquo;Scegli&raquo;</option>
+                                    <option value="1" >Felpe e maglioni</option>
+                                    <option value="2" >Giacche e giubbotti</option>
+                                    <option value="3" >Gonne</option>
+                                    <option value="4" >Pantaloni</option>
+                                    <option value="5" >Scarpe</option>
+                                    <option value="6" >Accessori</option>
+                                    <option value="7" >Polo e t-shirt</option>
+                                    <option value="8" >Intimo</option>
+                                    <option value="9" >Vestiti completi</option>
+                                    <option value="10" >Borse</option>
+                                    <option value="12" >Orologi e Gioielli</option>
+                                    <option value="11" >Altro</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_clothing_gender" class="" style="display:none">
+                            <div class="label">Per</div>
+                            <div class="value">
+                                <select name="clothing_gender">
+                                    <option value="">&laquo;Scegli&raquo;</option>
+                                    <option value="1" >Uomo</option>
+                                    <option value="2" >Donna</option>
+                                    <option value="3" >Unisex</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <!-- end category subtypes -->
+                        <li class="">
+                            <div class="label">Regione</div>
+                            <div class="value">
+                                
+                                    <select name="region" onchange="showCity('region');" id="region">
+                                        <option value="0" >&#171;Seleziona la Regione&#187;</option>
+                                        <option value="1" >Valle d'Aosta</option>
+<option value="2" >Piemonte</option>
+<option value="3" >Liguria</option>
+<option value="4" >Lombardia</option>
+<option value="5" >Trentino-Alto Adige</option>
+<option value="6" >Veneto</option>
+<option value="7" selected="selected" >Friuli-Venezia Giulia</option>
+<option value="8" >Emilia-Romagna</option>
+<option value="9" >Toscana</option>
+<option value="10" >Umbria</option>
+<option value="11" >Lazio</option>
+<option value="12" >Marche</option>
+<option value="13" >Abruzzo</option>
+<option value="14" >Molise</option>
+<option value="15" >Campania</option>
+<option value="16" >Puglia</option>
+<option value="17" >Basilicata</option>
+<option value="18" >Calabria</option>
+<option value="19" >Sardegna</option>
+<option value="20" >Sicilia</option>
+
+                                    </select>
+                                    
+                                
+                                <div class="tip" id="holidayhouse-helper">
+                                    <span class="arrow"></span>
+                                    <div>Seleziona la regione in cui si trova l'immobile</div>
+                                </div>
+                                <div class="tip" id="region-helper">
+                                    <span class="arrow"></span>
+                                    <div>Seleziona la regione in cui risiedi</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="li_city"  >
+                            <div class="label">Provincia</div>
+                            <div class="value">
+                                  
+                                      <select name="city" id="city" onchange="changeProvince(this.value);">
+                                        <option value="0">&laquo;Seleziona la provincia&raquo;</option>
+                                        <option value="1" >Gorizia</option>
+<option value="2" >Pordenone</option>
+<option value="3" >Trieste</option>
+<option value="4" >Udine</option>
+
+                                      </select>
+                                  
+                                  
+                            </div>
+                        </li>
+                        <li id="li_town" class="" style="display:none">
+                            <div class="label">
+                                Comune:
+                            </div>
+                            <div class="value">
+                                <select name="town" id="town" disabled="disabled" onchange="changeTown(this.value)">
+                                    <option value="">&laquo; Seleziona prima regione e provincia &raquo;</option>
+                                </select>
+                                <i id="span_town" style="display:none">(facoltativo)</i>
+                                
+                            </div>
+                            <script type="text/javascript">
+                            <!--
+                            selected_region = "7";
+                            selected_province = "0";
+                            selected_town = "";
+                            if (selected_region && selected_region != "0") { 
+                                if ( (selected_province && selected_province != '0') || selected_region=='1') { 
+                                    changeProvince((selected_province != "0" && selected_province) || "1");
+                                    if (selected_town) setTimeout("selectTown(selected_town)", 1000); 
+                                }
+                            }
+                            //-->
+                            </script>
+                        </li>
+                        <li id="li_zone" class="" style="display:none">
+                            <div class="label">
+                                Zona:
+                            </div>
+                            <div class="value">
+                                <select name="zone">
+                                    <option value="">&laquo; Seleziona prima il comune &raquo;</option>
+                                </select> <i>(facoltativo)</i>
+                                
+                            </div>
+                            <script type="text/javascript">
+                            <!--
+                                selected_zone = "";
+                                if (selected_town && selected_town != "0") {
+                                    setTimeout("changeTown(selected_town)",1500);
+                                    if (selected_zone) setTimeout("selectZone(selected_zone)", 2500);
+                                }
+                            //-->
+                            </script>
+                        </li>
+                        
+                        <li>
+                            <div class="label">Pubblica come</div>
+                            <div class="value">
+                                <label for="private_ad" id="lprivate_ad" style="display: inline;">
+                                    <input id="private_ad" name="company_ad" value="0" checked="checked" onclick="showType('private_ad')" type="radio" />
+                                    Privato
+                                </label>
+                                <label for="company_ad" id="lcompany_ad" style="display: inline;">
+                                    <input id="company_ad" name="company_ad" value="1"  onclick="showType('company_ad')" type="radio" />
+                                    Azienda
+                                </label>
+                                
+                            </div>
+                        </li>
+                        
+                        <li id="li_name" class="">
+                            <div class="label"> Nome </div>
+                            <div class="value">
+                                <input type="text" id="name" name="name" size="35" maxlength="50" value="" class="type-text form-border" onfocus="show_helper(this)" onblur="hide_helper(this)" />
+                                    <div class="tip" id="name-helper">
+                                        <span class="arrow"></span>
+                                        <div> Il nome verr&agrave; visualizzato nella pagina dell'annuncio.  </div>
+                                    </div>
+                                
+                                
+                            </div>
+                        </li>
+                        
+                        <li id="li_email" class="">
+                            <div class="label">E-mail</div>
+                            <div class="value">
+                            <input type="text" id="email" name="email" size="35" maxlength="60" value="" class="type-text form-border" onblur="hide_helper(this);check_tele2(this);checkMispelledDomain(this.value);phoneVerify('');" onfocus="show_helper(this)" />
+                                <div class="tip" id="email-helper">
+                                    <span class="arrow"></span>
+                                    <div> Il tuo indirizzo email verr&agrave; nascosto.<br /> Le risposte ti saranno inviate tramite subito.it </div>
+                                </div>
+                                <span id="err_msg_email" class="error" style="display:none" ></span>
+                                <span id="warn_msg_email" class="warning" style="display:none" ></span>
+                                <span id="tele2_warning" style="display:none;" class="warning">Attenzione: il dominio di posta tele2.it &egrave; stato sostituito da teletu.it</span>
+                            
+                            </div>
+                        </li>
+                        
+                        <li id="li_phone" class="">
+                            <div class="label">Telefono</div>
+                            <div class="value">
+                                <input type="text" class="type-text form-border" id="phone" name="phone" size="17" maxlength="50" value="" onblur="phoneInstantVerify(this.value,'err_phone');phoneVerify('');"/> 
+                                <div>
+                                    <input type="checkbox" id="phone_hidden" name="phone_hidden" value="1"  />
+                                    <label for="phone_hidden">Non mostrare il telefono nell'annuncio</label>
+                                </div>
+                                <span class="error" style="display:none" id="err_phone"></span>
+                                <span class="warning" id="warn_phone" style="display:none;">
+                                    Per maggiore sicurezza devi verificare il numero di telefono.<br />
+                                    &Egrave; veloce, gratis e basta farlo una volta sola. <a href="javascript:void(0)" onclick="xt_med('C','48','ai_warning_phone_verify','N');popupInfo('/pf', 780, 700)">Verificalo ora!</a><br />
+                                    <a href="javascript:void(0)" onclick="xt_med('C','48','ai_info_phone_verify','N');popupInfo('/pf/info', 780, 700)">Ulteriori informazioni</a>.
+                                </span>
+                                <div id="phone_verified" style="display:none;"><img src="http://109.168.127.170/img/check.png" alt="" />Numero di telefono verificato.</div>
+                            </div>
+                        </li>
+                        <li id="li_nosalesmen"  style="display: none;">
+                            <div class="label">Agenzie/Tmkg</div>
+                            <div class="value">
+                                <input type="checkbox" name="nosalesmen" value="1" id="nosalesmen"  />
+                                <label for="nosalesmen">
+                                Non voglio essere contattato da agenzie o telemarketing
+                                </label>
+                            </div>
+                        </li>
+                        <li id="li_type" class="" style="display: block" >
+                            <div class="label">Tipo di annuncio</div>
+                            <div class="value" id="type-elements">
+                                <label for="type_s" id="ltype_s">
+                                            <input type="radio" name="type" id="type_s" value="s" checked="checked" onclick="typeChanged('s', 'dprice', 'lprice', 'category', 'company_ad');" /> In vendita
+                                        </label>
+                                    <label for="type_k" id="ltype_k">
+                                            <input type="radio" name="type" id="type_k" value="k"  onclick="typeChanged('k', 'dprice', 'lprice', 'category', 'company_ad');" /> Cercasi
+                                        </label>
+                                    
+                                
+                                
+                            </div>
+                        </li>
+                        <li id="li_country" class="" style="display:none;">
+                            <div class="label">
+                                Paese:
+                            </div>
+                            <div class="value">
+                            <select name="country" id="country">
+                                <option value="0">&laquo;Seleziona&raquo;</option>
+                                <option value="1" >Austria</option><option value="2" >Belgio</option><option value="3" >Cipro</option><option value="4" >Città del Vaticano</option><option value="5" >Croazia</option><option value="6" >Danimarca</option><option value="7" >Francia</option><option value="8" >Germania</option><option value="9" >Grecia</option><option value="10" >Irlanda</option><option value="11" >Malta</option><option value="12" >Norvegia</option><option value="13" >Paesi Bassi</option><option value="14" >Polonia</option><option value="15" >Portogallo</option><option value="16" >Monaco</option><option value="17" >Regno Unito</option><option value="18" >Repubblica Ceca</option><option value="19" >San Marino</option><option value="20" >Spagna</option><option value="21" >Svezia</option><option value="22" >Svizzera</option><option value="23" >Turchia</option><option value="24" >Ungheria</option><option value="25" >Altri Paesi</option>
+                            </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_subject" class="" >
+                            <div class="label">
+                                Titolo annuncio
+                                    
+                                
+                            </div>
+                            <div class="value">
+                                <input type="text"  class="type-text form-border" id="subject" name="subject" maxlength="50" value="" onfocus="show_helper(this)" onblur="hide_helper(this);suggestCategory(this.value, document.formular.category.value, 'subject-warning');" onkeyup="checkCertiLogo(0)"/>
+                                <div class="tip" id="subject-helper">
+                                    <span class="arrow"></span>
+                                    <div id="subject-helper-msg"> 
+                                        Non scrivere "Vendo", "Cerco", "Affitto" o parole simili.
+                                            
+                                        
+                                    </div>
+                                </div>
+                                
+                                <span class="warning" id="subject-warning" style="display:none" >%warn_subject</span>
+                            </div>
+                        </li>
+                        <li id="li_price" class="price "   >
+                            <div class="label">
+                                Prezzo
+                                    
+                                
+                            </div>
+                            <div class="value">
+                                <input type="text" class="type-text" name="price" id="price" maxlength="7" value="" onblur="hide_helper(this);checkPrice();" onfocus="show_helper(this)" /> &euro; <i id="price_optional" class="optional" style="display:inline">(facoltativo)</i> 
+                                <div class="tip" id="price-helper">
+                                    <span class="arrow"></span>
+                                    <div>Esempio: 12000. Non sono ammessi segni di punteggiatura.</div>
+                                </div>
+                                
+                                
+                                
+                            </div>
+                        </li>
+                        <li id="li_gender" class="" style="display:none;">
+                            <div class="label"> Affittasi a </div>
+                            <div class="value">
+                                <select name="gender" id="gender">
+                                    <option value="">&laquo;Scegli&raquo;</option>
+                                    <option value="1" >Uomini</option> <option value="2" >Donne</option> <option value="3" >Ambosessi</option> 
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_smoker" class="" style="display:none;">
+                            <div class="label"> Fumatori </div>
+                            <div class="value">
+                                <select name="smoker" id="smoker">
+                                    <option value="" >&laquo;Scegli&raquo;</option>
+                                    <option value="1" >Sì</option> <option value="2" >No</option> <option value="3" >Indifferente</option> 
+                                </select>
+                                
+                            </div>
+                        </li>
+                        <li id="li_cubic_capacity" class="" style="display:none;">
+                            <div class="label">Cilindrata</div>
+                            <div class="value">
+                                <input class="type-text form-border" name="cubic_capacity" id="cubic_capacity" size="5" maxlength="4" type="text" value="" /> cc
+                                
+                            </div>
+                        </li>
+                        <li id="li_car_type" class="" style="display:none;">
+                            <div class="label">Tipologia</div>
+                            <div class="value">
+                                <select name="car_type" id="car_type">
+                                    <option value="">&laquo;Seleziona tipologia&raquo;</option>
+                                    <option value="1" >Utilitaria</option>
+<option value="2" >Berlina</option>
+<option value="3" >Station Wagon</option>
+<option value="4" >Monovolume</option>
+<option value="5" >Fuoristrada/SUV</option>
+<option value="6" >Cabrio</option>
+<option value="7" >Coupé</option>
+<option value="8" >Van/Minibus</option>
+<option value="9" >Veicolo Commerciale</option>
+<option value="10" >Altro</option>
+ 
+                                </select> <i>(facoltativo)</i>
+                                
+                            </div>
+                        </li>
+                        <li id="li_gearbox" class="" style="display:none;">
+                            <div class="label">Cambio</div>
+                            <div class="value">
+                                <select name="gearbox" id="gearbox">
+                                    <option value="">&laquo;Scegli&raquo;</option>
+                                    <option value="1" >Manuale</option> <option value="2" >Automatico</option> <option value="3" >Sequenziale</option> <option value="4" >Altro</option> 
+                                </select> <i>(facoltativo)</i>
+                                
+                            </div>
+                        </li>
+                        <li id="li_fuel" class="" style="display:none;">
+                            <div class="label"> Alimentazione </div>
+                            <div class="value">
+                                <select name="fuel" id="fuel">
+                                    <option value="">&laquo;Scegli&raquo;</option>
+                                    <option value="1" >Benzina</option> <option value="2" >Gasolio</option> <option value="3" >Gas</option> <option value="4" >Elettrica</option> <option value="5" >Altro</option> 
+                                </select> <i>(facoltativo)</i>
+                                
+                            </div>
+                        </li>
+                        <li id="li_pollution" class="" style="display:none;">
+                            <div class="label double">Classe di inquinamento</div>
+                            <div class="value">
+                                <select name="pollution" id="pollution">
+                                    <option value="">&laquo;Seleziona la classe&raquo;</option>
+                                    <option value="1" >Pre-Euro</option> <option value="2" >Euro 1</option> <option value="3" >Euro 2</option> <option value="4" >Euro 3</option> <option value="5" >Euro 4</option> <option value="6" >Euro 5</option> 
+                                </select> <i>(facoltativo)</i>
+                                
+                            </div>
+                        </li>
+                        <li id="li_rooms" class="" style="display:none;">
+                            <div class="label"> Locali </div>
+                            <div class="value">
+                                <select name="rooms" id="rooms">
+                                    <option value="0">&laquo;Seleziona&raquo;</option>
+                                    <option value="1" >1</option> <option value="2" >2</option> <option value="3" >3</option> <option value="4" >4</option> <option value="5" >5</option> <option value="6" >6</option> <option value="7" >7</option> <option value="8" >8</option> <option value="9" >9</option> <option value="10" >10</option> <option value="11" >Più di 10</option> 
+                                </select> <i>(facoltativo)</i>
+                                
+                            </div>
+                        </li>
+                        <li id="li_size" class="" style="display:none;">
+                            <div class="label"> Superficie </div>
+                            <div class="value">
+                                <input class="type-text form-border" name="size" id="size" size="5" maxlength="8" type="text" value="" /> mq commerciali (indicativi)
+                                
+                            </div>
+                        </li>
+                        <li id="li_length" class="" style="display:none;">
+                            <div class="label"> Lunghezza </div>
+                            <div class="value">
+                                <input class="type-text form-border" name="length" id="length" size="5" maxlength="8" type="text" value="" /> mt (indicativa)
+                                
+                            </div>
+                        </li>
+			<li id="li_job_categories" class=" categories_double" style="display:none;">
+                            <div class="label"> Settore </div>
+                            <div class="value">
+
+				 <span class="warning">Seleziona uno o due settori</span>
+				                                
+
+                                <br class="sep" />
+                                <div id="job_categories_container_company" style="display:none">
+                                        <span><input type="checkbox" name="jc[]" value="100" id="jc_100_c" onclick="return check_jc()" /><label for="jc_100_c">Acquisti - Logistica - Trasporti</label></span><span><input type="checkbox" name="jc[]" value="112" id="jc_112_c" onclick="return check_jc()" /><label for="jc_112_c">Formazione - Istruzione</label></span><span><input type="checkbox" name="jc[]" value="101" id="jc_101_c" onclick="return check_jc()" /><label for="jc_101_c">Affari legali</label></span><span><input type="checkbox" name="jc[]" value="113" id="jc_113_c" onclick="return check_jc()" /><label for="jc_113_c">Informatica - Telecomunicazioni</label></span><span><input type="checkbox" name="jc[]" value="102" id="jc_102_c" onclick="return check_jc()" /><label for="jc_102_c">Amministrazione - Segreteria</label></span><span><input type="checkbox" name="jc[]" value="114" id="jc_114_c" onclick="return check_jc()" /><label for="jc_114_c">Ingegneria</label></span><span><input type="checkbox" name="jc[]" value="103" id="jc_103_c" onclick="return check_jc()" /><label for="jc_103_c">Architettura - Arti grafiche - Design</label></span><span><input type="checkbox" name="jc[]" value="115" id="jc_115_c" onclick="return check_jc()" /><label for="jc_115_c">Marketing - Comunicazione</label></span><span><input type="checkbox" name="jc[]" value="104" id="jc_104_c" onclick="return check_jc()" /><label for="jc_104_c">Assistenza (badante, baby sitter,...)</label></span><span><input type="checkbox" name="jc[]" value="116" id="jc_116_c" onclick="return check_jc()" /><label for="jc_116_c">Medicina - Salute</label></span><span><input type="checkbox" name="jc[]" value="105" id="jc_105_c" onclick="return check_jc()" /><label for="jc_105_c">Commerciale</label></span><span><input type="checkbox" name="jc[]" value="117" id="jc_117_c" onclick="return check_jc()" /><label for="jc_117_c">Produzione (operai,...)</label></span><span><input type="checkbox" name="jc[]" value="106" id="jc_106_c" onclick="return check_jc()" /><label for="jc_106_c">Commercio - Negozi</label></span><span><input type="checkbox" name="jc[]" value="118" id="jc_118_c" onclick="return check_jc()" /><label for="jc_118_c">Project Management</label></span><span><input type="checkbox" name="jc[]" value="107" id="jc_107_c" onclick="return check_jc()" /><label for="jc_107_c">Contabilità - Finanza</label></span><span><input type="checkbox" name="jc[]" value="119" id="jc_119_c" onclick="return check_jc()" /><label for="jc_119_c">Qualità - Ambiente</label></span><span><input type="checkbox" name="jc[]" value="108" id="jc_108_c" onclick="return check_jc()" /><label for="jc_108_c">Direzione - Consulenza</label></span><span><input type="checkbox" name="jc[]" value="120" id="jc_120_c" onclick="return check_jc()" /><label for="jc_120_c">Risorse Umane</label></span><span><input type="checkbox" name="jc[]" value="109" id="jc_109_c" onclick="return check_jc()" /><label for="jc_109_c">Edilizia</label></span><span><input type="checkbox" name="jc[]" value="121" id="jc_121_c" onclick="return check_jc()" /><label for="jc_121_c">Sicurezza - Vigilanza</label></span><span><input type="checkbox" name="jc[]" value="110" id="jc_110_c" onclick="return check_jc()" /><label for="jc_110_c">Editoria - Giornalismo</label></span><span><input type="checkbox" name="jc[]" value="122" id="jc_122_c" onclick="return check_jc()" /><label for="jc_122_c">Supporto al cliente</label></span><span><input type="checkbox" name="jc[]" value="111" id="jc_111_c" onclick="return check_jc()" /><label for="jc_111_c">Estetica - Cura della persona</label></span><span><input type="checkbox" name="jc[]" value="123" id="jc_123_c" onclick="return check_jc()" /><label for="jc_123_c">Turismo - Ristorazione</label></span><span>&nbsp;</span><span><input type="checkbox" name="jc[]" value="124" id="jc_124_c" onclick="return check_jc()" /><label for="jc_124_c">Altro (domestica, lezioni private,...)</label></span>
+                                </div>
+                                <div id="job_categories_container_private" style="display:none">
+                                        <span><input type="checkbox" name="jc[]" value="104" id="jc_104_p" onclick="return check_jc()" /><label for="jc_104_p">Assistenza (badante, baby sitter,...)</label></span><span>&nbsp;</span><span><input type="checkbox" name="jc[]" value="111" id="jc_111_p" onclick="return check_jc()" /><label for="jc_111_p">Estetica - Cura della persona</label></span><span>&nbsp;</span><span><input type="checkbox" name="jc[]" value="124" id="jc_124_p" onclick="return check_jc()" /><label for="jc_124_p">Altro (domestica, lezioni private,...)</label></span>
+                                </div>
+                            <script type="text/javascript">
+                            <!--
+                                job_categories_selected = "";
+                                job_categories_selected = job_categories_selected.split('|');
+                                var c_or_p = '_p'
+                                for (i=0; i<job_categories_selected.length;i++) {
+                                    elem = document.getElementById("jc_"+job_categories_selected[i]+c_or_p);
+                                    if (elem) elem.click();
+                                }
+                            //-->
+                            </script>
+                            </div>
+                        </li>
+                        <li id="li_contract_type" class="" style="display:none;">
+                            <div class="label double"> Contratto desiderato</div>
+                            <div class="value">
+                                <select name="contract_type" id="contract_type">
+                                    <option value="">&laquo;Seleziona il tipo di contratto&raquo;</option>
+                                    <option value="ind" >Tempo indeterminato</option> <option value="tdet" >Tempo determinato</option> <option value="agent" >Agente/P.Iva</option> <option value="stage" >Stage</option> <option value="project" >Contratto a progetto</option> <option value="apprentice" >Apprendistato</option> <option value="zzzzzother" >Altro</option> 
+                                </select> 
+                                <i id="optional_contract_type" class="">(facoltativo)</i>
+                                
+                            </div>
+                        </li>
+                        <li id="li_degree" class="" style="display:none;">
+                            <div class="label"> Titolo di studio</div>
+                            <div class="value">
+                                <select name="degree" id="degree">
+                                    <option value="">&laquo;Seleziona il tuo titolo di studio&raquo;</option>
+                                    
+                                    <option value="1" >Scuola dell'obbligo</option> <option value="2" >Diploma di Maturita'</option> <option value="3" >Laurea</option> <option value="4" >Master/Dottorato</option> 
+                                </select> 
+                                <i id="optional_degree" class="hide">(facoltativo)</i>
+                                
+                            </div>
+                        </li>
+                        <li id="li_worklevel" class="" style="display:none;">
+                            <div class="label"> Livello</div>
+                            <div class="value">
+                                <select name="worklevel" id="worklevel">
+                                    <option value="">&laquo;Seleziona l'inquadramento&raquo;</option>
+                                    <option value="1" >Dirigente</option> <option value="2" >Quadro</option> <option value="3" >Impiegato</option> <option value="4" >Altro</option> 
+                                </select> 
+                                
+                            </div>
+                        </li>
+                        <li id="li_workhours" class="" style="display:none;">
+                            <div class="label"> Disponibilit&agrave; </div>
+                            <div class="value">
+                                <select name="workhours" id="workhours">
+                                    <option value="">&laquo;Seleziona l'orario di lavoro&raquo;</option>
+                                    <option value="shift" >Turni</option> <option value="fulltime" >Full time</option> <option value="parttime" >Part time</option> <option value="zzzzzother" >Altro</option> 
+                                </select> 
+                                <i id="optional_workhours" class="hide">(facoltativo)</i>
+                                
+                            </div>
+                        </li>
+                        <li id="li_body" class="textarea " >
+                            <script type="text/javascript">
+                            <!--
+                            showType('private_ad');
+                            //-->
+                            </script>
+                            <div class="label"> Testo  </div>
+                            <div class="value">
+                                <textarea cols="80" rows="10" name="body" id="body" onblur="hide_helper(this)" onfocus="show_helper(this)" onkeyup="checkCertiLogo(0)"></textarea>
+                                <div class="tip" id="body-helper">
+                                    <span class="arrow right"></span>
+                                    <div id="body-helper-msg">
+                                        
+                                        
+                                        Descrivi ciò che desideri vendere o ciò che cerchi in maniera chiara ed esaustiva.
+                                    </div>
+                                </div>
+                                <span class="warning" id="orig_msg"></span>
+                                <span class="error" style="display:none" id="err_msg_body"></span>
+                                
+                                    <script type="text/javascript">checkCertiLogo();</script>
+                                
+                            </div>
+                        </li>
+                        <li id="li_clothing_old" class="" style="display:none;">
+                            <div class="label">Capo appartenente alla collezione</div>
+                            <div class="value">
+                                <label for="clothing_old_1">
+                                    <input type="radio" id="clothing_old_1" name="clothing_old" value="t" checked="checked" disabled="disabled"/>
+                                    Autunno 2008 o precedente
+                                </label><br />
+                                <label for="clothing_old_0">
+                                    <input type="radio" id="clothing_old_0" name="clothing_old" value="f"  disabled="disabled"/>
+                                    Successiva a Primavera 2009
+                                </label>
+                                
+                            </div>
+                        </li>
+                        <li id="li_map" class="" style="display:none;">
+<script type="text/javascript">
+<!--
+var mapInitialized = false;
+var geocoder;
+var pin_map;
+var pinIcon;
+var map;
+var formtag = document.formular;
+var tip = "Scrivi qui l'indirizzo e clicca su 'Trova'";
+var DEFAULT_ZOOM = 16;
+
+function mapInitialize(){
+  if (GBrowserIsCompatible()) {
+    document.getElementById("map_canvas").style.display='block';
+    document.getElementById("show_pin_box").style.display='block';
+    window.onunload = GUnload;
+    map = new GMap2(document.getElementById("map_canvas"));
+    map.addControl(new GLargeMapControl());
+
+    pinIcon = new GIcon();
+    pinIcon.image = "http://109.168.127.170/img/pin_map.png";
+    pinIcon.shadow = "http://109.168.127.170/img/pin_map_shadow.png";
+    pinIcon.iconSize = new GSize(26, 44);
+    pinIcon.shadowSize = new GSize(48, 44);
+    pinIcon.iconAnchor = new GPoint(11, 41);
+    pinIcon.infoWindowAnchor = new GPoint(18, 12);
+
+    GEvent.addListener(map, "dragend", function() {
+        point = map.getCenter();
+        formtag.latitude.value=point.lat();
+        formtag.longitude.value=point.lng();
+        togglePin();
+        });
+
+    GEvent.addListener(map, "zoomend", function() {
+        formtag.zoom.value = map.getZoom();
+        });
+
+    mapInitialized = true;
+  }
+  else{
+    alert("<strong>Attenzione, il browser che stai utilizzando non consente la visualizzazione della mappa.</strong>");
+  }
+}
+
+
+
+function removeTownFromAddress(address, town){
+    address = address.toLowerCase();
+    firstCityWord = town.split(' ')[0];
+    firstCityWord = firstCityWord.replace(/^\s+|\s+$/, '');
+    pos = address.indexOf(firstCityWord.toLowerCase());
+    if (pos>-1){
+        tokens = address.substr(0,pos).split(' ');
+        lastword = tokens[tokens.length-2];
+        if (lastword && lastword.match('/via|viale|piazza|corso|vicolo/')>-1)
+            return address;
+        else
+            return address.substr(0,pos);
+    }
+    else
+        return address;
+}
+
+function searchAddress(address){
+  if (!geocoder)
+    geocoder = new GClientGeocoder();
+
+  address = address.replace(tip,'');
+
+  if (formtag.town.selectedIndex > 0){
+      address = removeTownFromAddress(address,formtag.town.options[formtag.town.selectedIndex].text);
+      address = address + ' ' + formtag.town.options[formtag.town.selectedIndex].text;
+      if (formtag.city.selectedIndex > 0){
+          address = address + ', ' + formtag.city.options[formtag.city.selectedIndex].text;
+      }
+  }
+
+geocoder.getLocations(
+          address,
+          function(response){
+            if (!response || response.Status.code != 200) {
+              help = document.getElementById("map_help");
+              help.innerHTML="<div class=\"warning\">L'indirizzo non &egrave; stato trovato. Prova a specificarlo meglio inserendo anche il CAP, il comune e la provincia.</div><br />";
+              help.style.display='block';
+              document.getElementById("map_canvas").style.display='none';
+              document.getElementById("show_pin_box").style.display='none';
+            } else {
+              if (response.Placemark.length==1){
+                help = document.getElementById("map_help");
+                if (response.Placemark[0].AddressDetails.Accuracy<6){
+                  help.innerHTML="<div class=\"warning\">Non &egrave; stato trovato l'indirizzo esatto. Verifica di averlo<br />scritto correttamente oppure sposta la puntina nella<br />posizione desiderata.</div><br />";
+                  help.style.display='block';
+                }else{
+                  help.style.display='none';
+                }
+                if (!mapInitialized)
+                  mapInitialize();
+                point =  new GLatLng(response.Placemark[0].Point.coordinates[1], response.Placemark[0].Point.coordinates[0]);
+                formtag.latitude.value = point.lat();
+                formtag.longitude.value = point.lng();
+                if (document.getElementById("map_canvas").style.display=='none');{
+                  document.getElementById("map_canvas").style.display='block';
+                  document.getElementById("show_pin_box").style.display='block';
+                }
+                centerOnCoords();
+                togglePin();
+                if (formtag.show_pin.checked)
+                  showInfoWindow();
+              }else{
+                document.getElementById("map_canvas").style.display='none';
+                document.getElementById("show_pin_box").style.display='none';
+                help = document.getElementById("map_help");
+                help.style.display='block';
+                help.innerHTML="<div><span class=\"warning\">Sono stati trovati pi&ugrave; risultati. Scegli l'indirizzo corretto dall'elenco oppure specificale meglio inserendo, ad esempio, <br />il CAP, il comune e la provincia.</span><br /><ul>";
+                for (i=0;i<response.Placemark.length;i++){
+                  help.innerHTML += "<li class=\"list\" style='margin-left:15px'><a href='#' onclick=\"document.getElementById('map_canvas').style.display='block';document.getElementById('show_pin_box').style.display='block';formtag.longitude.value='" + response.Placemark[i].Point.coordinates[0] + "';formtag.latitude.value='" + response.Placemark[i].Point.coordinates[1] + "';centerOnCoords();togglePin();document.getElementById('map_help').style.display='none';return false;\">" + response.Placemark[i].address + "</a></li>";
+                }
+                help.innerHTML += "</ul></div>";
+              }
+            }
+          }
+        );
+}
+
+function centerOnCoords(panning){
+  if (!mapInitialized)
+    mapInitialize();
+  point = new GLatLng(formtag.latitude.value,  formtag.longitude.value,  true);
+  if (panning){
+    map.setZoom(formtag.zoom.value ? parseInt(formtag.zoom.value) : DEFAULT_ZOOM);
+    map.panTo(point);
+  } else
+    map.setCenter(point, formtag.zoom.value ? parseInt(formtag.zoom.value) : DEFAULT_ZOOM);
+}
+
+function removePin(){
+  if (pin_map){
+    map.removeOverlay(pin_map);
+  }
+  
+}
+
+function showPin(){
+
+  removePin();
+
+  mOptions = {"clickable":false,"title":"clicca e trascina il puntatore nel punto desiderato","draggable":true,"icon":pinIcon};
+  pin_map = new GMarker(new GLatLng(formtag.latitude.value,  formtag.longitude.value,  true), mOptions);
+
+  GEvent.addListener(pin_map,"dragstart",
+          function (){
+            pin_map.closeInfoWindow();
+          }
+  );
+  GEvent.addListener(pin_map,"dragend",
+          function (){
+            point = pin_map.getPoint();
+            formtag.latitude.value = point.lat();
+            formtag.longitude.value = point.lng();
+            centerOnCoords(true);
+          }
+  );
+
+  map.addOverlay(pin_map);        
+}
+
+function showInfoWindow(){
+  var tipNode = document.createElement('div');
+  tipNode.style.width = '200px';
+  tipNode.style.height = '30px';
+  tipNode.id = 'tip';
+  tipNode.innerHTML='Se la posizione individuata non &egrave; corretta, puoi trascinare la puntina nella posizione desiderata.';
+  pin_map.openInfoWindowHtml(tipNode);
+}
+
+function togglePin(){
+  if (formtag.show_pin.checked){
+    showPin();
+  }
+  else
+   removePin();
+}
+
+function showHideMapForm(){
+  if (document.getElementById("showmap_yes").checked){
+    document.getElementById("inputmap").style.display='block';
+    document.getElementById("show_pin").checked=true;
+    formtag.zoom.value='';
+  }
+  else{
+    formtag.latitude.value='';
+    formtag.longitude.value='';
+    formtag.zoom.value='';
+    document.getElementById("map_canvas").style.display='none';
+    document.getElementById("inputmap").style.display='none';
+    document.getElementById("map_help").style.display='none';
+    document.getElementById("show_pin_box").style.display='none';
+    formtag.map_search.value=tip;
+  }
+}
+//-->
+</script>
+    <div class="label">Mappa</div> 
+    <div class="value" onkeypress="if (event.keyCode == 13) {document.formular.findonmap.click();return false;}">
+        <input type="radio" name="show_map" id="showmap_yes" value="1" onclick="showHideMapForm()"  /><label for="showmap_yes">S&igrave;</label> <input type="radio" name="show_map" id="showmap_no" value="0" onclick="showHideMapForm()"  checked="checked" /><label for="showmap_no">No</label>
+        <div id="inputmap">
+          
+          <input type="text" name="map_search" class="maptip" value="Scrivi qui l'indirizzo e clicca su 'Trova'" size="43" onfocus="if (this.value==tip) this.value=''; this.className='';"  onblur="if (this.value=='') this.value=tip; this.className='maptip'" /> <input type="button" name="findonmap" value="Trova" onclick="searchAddress(document.formular.map_search.value)"/><br />
+          Ad esempio: Via Roma 1, 20060 Basiano, Milano<br />
+          <br />
+          <input type="hidden" id="latitude" name="latitude" value="" />
+          <input type="hidden" id="longitude" name="longitude" value="" />
+          <input type="hidden" id="zoom" name="zoom" value="" />
+          <div id="map_help" style="display:none"></div>
+          <div id="show_pin_box" style="display:none">
+          <input type="checkbox" name="show_pin" id="show_pin" value="1" onclick="togglePin();" /> <label for="show_pin">Indica la posizione esatta con la puntina</label>
+          </div>
+          <div id="map_canvas" style="width: 370px; height: 390px;border: 1px solid #999;display:none"></div> 
+        </div>
+    </div>
+
+<script type="text/javascript">
+function initMap(){
+return;
+
+}
+Onload(function(){
+    include_script("http"+"://"+"maps.google.com"+"/"+"maps?file=api&v=2&sensor=false&key=ABQIAAAAP_-sSGfS8qTBJuKctuAiZBQdabq1twuqY9BQhxxSNmkf8aAdYxRqsAo66NwK9R-rvASvyFOCJ_zJKA&hl=it&async=2&callback=initMap",null);
+  }
+);
+//-->
+</script>
+
+</li>
+
+                        <li id="li_pictures" class="" >
+                            <div class="label">Foto</div>
+                            <div class="value">
+                                
+                                    
+                                      <input type="file" name="image" size="35" id="image" onchange="showSpindle();submitImage(this);" />
+                                    
+                                    
+                                    
+                                      <span id="photoinfo" style="display:block" class="warning">Un annuncio con foto viene consultato mediamente 7 volte di pi&ugrave;.</span>
+                                      <span id="photojobwarn" style="display:none" class="warning">
+                                        Inserisci il logo della tua azienda. Altri tipi di immagine non saranno accettati.
+                                        
+                                      </span>
+                                    
+                                    
+                                
+                                
+                            </div>
+                        </li>
+                        
+                        
+                            <li id="li_inserted_pics" style="display:none">
+                                <div class="label">Foto inserite</div>
+                                <div class="value">
+                                    <div class="pic" id="spindle" style="display:none">
+                                        <span class="imageholder"><img src="http://109.168.127.170/img2/spindle.gif" style="display:block;margin:20px 30px;" alt="" /></span>
+                                        <a href="#" onclick="return false">Rimuovi</a> 
+                                    </div>
+                                </div>
+                            </li>
+                        
+                        <li id="li_accept_term_of_use" class="conditions" >
+                            <div class="label"></div>
+                            <div class="value">
+                                <input type="checkbox" id="accept_term_of_use" name="accept_term_of_use" value="1" checked="checked" />
+                                <label for="accept_term_of_use">Accetto le</label> <a href="http://www.subito.it/terms.htm" target="_blank">condizioni di utilizzo del servizio</a>.
+                                
+                                
+                            </div>
+                        </li>
+                    </ul>
+                    <a id="btn_annuncio_continua" onclick="cleanElementsValue( new Array( 'subject', 'body')); document.formular.submit();return false;" class="btn_big" href="#" onmousedown="push_button(this)" onmouseup="release_button(this)"><span>Continua</span></a>
+                    <br class="sep" />
+                    <div class="conditions">Con l'invio del presente modulo, esprimo il mio consenso al trattamento dei miei dati personali in conformit&agrave; alle finalit&agrave; di cui all'<a href="http://www.subito.it/privacy.htm?ca=7_s" target="_new">Informativa Privacy</a>.<br /><br />L'utilizzo di sistemi automatici di caricamento annunci &egrave; vietato, salvo esplicita autorizzazione da parte di Subito.it.</div>
+                    <input type="hidden" name="validate" value="continua" />
+                    <input type="submit" class="ninjaSubmit" />
+                </form>
+            </div>
+            <div class="close"></div>
+        </div>
+    </div>
+    <div class="coldx">
+        <div class="coldx_open"></div>
+        <div class="coldx_main">
+            <h2 align="center">Ricorda</h2>
+            <ul class="flagged">
+                <li>Non inserire pi&ugrave; volte lo stesso annuncio.</li>
+                <li>Un solo oggetto per annuncio.</li>
+                <li>Scegli un titolo il pi&ugrave; possibile descrittivo.</li>
+                <li>Solo prodotti reali e offerte di lavoro, no servizi e marketing.</li>
+                <li class="last">Gli annunci che non rientrano nelle regole non verranno pubblicati.</li>
+            </ul>
+        </div>
+        <div class="coldx_close"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+<!--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (window.attachEvent && !focused)
+        window.attachEvent("onload", scrollToTop);
+
+if (document.getElementById('category'))
+    showOriginal(document.getElementById('category').value);
+
+var uploaded_images = 0;
+
+setJavascriptON();
+//-->
+</script>
+
+<div id="footer" class="hideonprint">
+
+    <div class="boxfull">&nbsp;</div>
+
+</div>
+
+<!-- XITI STAT CODE -->
+<script type="text/javascript">
+<!--
+    xtnv = document;        //parent.document or top.document or document        
+    xtsd = "http://logc156";
+    xtsite = "355968";
+    xtn2 = "48";        // level 2 site
+    xtpage = "newad::form";
+    xtdi = "3";        //implication degree
+    x1 = ""; //province
+    x2 = ""; //category
+    x3 = ""; //page_type
+
+    var content="ai/newad_form.html";
+
+    if (content == "docs/top_searches.html"){
+      xtn2 = "49";
+      if ("" != ""){
+        xtpage = "error::missing_ad_from_search_seo";
+      }else if ("" == "1"){
+        xtpage = "error::missing_ad_seo";
+      }
+    }
+
+    if (xtpage=="" && (content == "list/view.html" || content == "list/list.html")){
+
+	if (content == "list/view.html"){
+		    cat = "";
+            cat_name="";
+            x2 = encodeURIComponent(cat_name.replace("&",""));
+            x3 = "2";
+        xtdi="2";
+	}else{
+        xtdi="1";
+		    if ("" == "" || "" == "0"){
+			    cat = "all";
+			    x2 = "all categories";
+		    }
+		    else{
+			    cat = "";
+                cat_name="";
+                x2 = encodeURIComponent(cat_name.replace("&",""));
+		    }
+            x3 = "1";
+	}
+
+        if (content == "list/view.html")
+            type="";
+        else
+            type= getAdTypeFromCaller();
+        last_field = "";
+
+        w = "1";
+        where = "";
+	reg = "";
+        if (reg != "")
+		xtn2 = parseInt(reg) + 99;
+	else
+		xtn2 = "30";
+        if (w=="1")
+            where = "none";
+        else if (w=="2")
+            where = "nearby";
+        else if (w=="3")
+            where = "italy";
+        else if ((w != "")){
+		if (parseInt(w)>100){
+		    where = (typeof(region_provs)=='undefined') ? 'undef' :  region_provs[reg][parseInt(w) - 100];
+		} else{
+		    where = (typeof(region_provs)=='undefined') ? 'undef' : region_provs[reg][parseInt(w) - 3];
+		}
+		x1 = where;
+	}
+
+        if (content == "list/view.html") {
+            last_field = "";
+            if (last_field != "") {
+                if (last_field == "1")
+                    last_field = "detail_prof";
+                else if (last_field == "0")
+                    last_field = "detail_priv";
+            }
+        }
+        else if (content == "list/list.html") {
+            xt_mtcl = encodeURIComponent("");
+            xt_npg = "";
+            if (window.xtparam!=null){window.xtparam+="&mc="+xt_mtcl+"&np="+xt_npg;}
+            else{window.xtparam ="&mc="+xt_mtcl+"&np="+xt_npg;};            
+
+            if ("" == "0") {
+                last_field = "no_ads";
+                }
+            else {
+                last_field = "";
+                if (last_field == "p")
+                    last_field = "li_priv";
+                else if (last_field == "c")
+                    last_field = "li_prof";
+                else if (last_field == "a")
+                    last_field = "li_gen";
+                }
+        }
+
+        if (type == "a")
+            type = "all"; 
+        else if (type == "s")
+            type = "sell";
+        else if (type == "u")
+            type = "rent";
+        else if (type == "h")
+            type = "rent_holiday";
+        else if (type == "k")
+            type = "seek";
+
+        xtpage = cat+":"+":"+where+":"+":"+type+":"+":"+last_field;
+        
+
+    
+
+	xt_multc = "&x1="+x1+"&x2="+x2+"&x3="+x3+"&x4=&x5=&x6=&x7=&x8=&x9=&x10=";
+	if (window.xtparam!=null){window.xtparam+=xt_multc;}
+	else{window.xtparam =xt_multc;};
+   }
+//-->
+</script>
+
+<script type="text/javascript" src="http://109.168.127.170/js/xtcore.js"></script>
+<noscript>
+<img width="1" height="1" alt="" src="http://logc156.xiti.com/hit.xiti?s=355968&amp;s2=48&amp;p=newad::form" />
+</noscript>
+
+
+
+
+
+</body>
+</html>
