@@ -1,1 +1,2 @@
-Technologies used: HTML, CSS, JavaScript, JQuery, Ajax, MySQL, Symfony
+Technologies used: Frontend: HTML, CSS, JavaScript, JQuery, Ajax
+                   Backend: PHP, MySQL, Symfony
